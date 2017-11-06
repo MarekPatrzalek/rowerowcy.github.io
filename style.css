@@ -1,0 +1,501 @@
+body
+{
+	margin-top:0;
+	padding:0;
+	font-family: 'Asap Condensed', sans-serif;
+	background-image: url("imgs/bgpattern.png");
+}
+
+#main
+{
+	width: 1150px;
+	margin: auto;
+	height: auto;
+}
+
+#logo
+{
+	
+}
+
+.nav
+{
+	margin-top:0;
+	margin:0;
+	width: 1150px;
+	background-color: #e3e3e3;
+	height: auto;
+	text-align: center;
+}
+
+#content
+{
+	width:1150px;
+	height: 730px;
+	background-image: url("imgs/contentback.png");
+	background-size: cover;
+	-moz-background-size: cover;
+	background-position: center; 
+	float:left;
+	
+}
+
+#content-pf
+{
+	width:1150px;
+	height: 800px;
+	background-image: url("imgs/contentback.png");
+	background-size: cover;
+	-moz-background-size: cover;
+	background-position: center; 
+	float:left;
+	
+}
+
+#info
+{
+	padding-top:35px;
+	height:700px;
+	width:990px;
+	float:left;
+	display:block;
+}
+
+.info-art
+{
+	text-align:center;
+	padding:12px;
+	height:170px;
+	width:800px;
+	margin:auto;
+	margin-bottom:25px;
+	border-radius: 10px;
+	background-color: rgba(200,200,200,0.75);
+}
+
+.info-typy
+{
+	text-align:center;
+	padding:12px;
+	height:250px;
+	width:800px;
+	margin:auto;
+	margin-bottom:25px;
+	border-radius: 10px;
+	background-color: rgba(200,200,200,0.75);
+}
+
+#info-arcus
+{
+	margin-top:50px;
+}
+
+.info-mail
+{
+	text-align:center;
+	padding:12px;
+	height:550px;
+	width:800px;
+	margin:auto;
+	margin-bottom:25px;
+	border-radius: 10px;
+	background-color: rgba(200,200,200,0.75);
+}
+
+input
+{
+	margin:auto;
+	width:180px;
+	padding:5px;
+	margin-top:5px;
+	border-radius:5px;
+	background-color:#fff3e6;
+}
+
+input:focus
+{
+	background-color:#fedcb3
+}
+
+input[type=submit]
+{
+	margin:auto;
+	width:90px;
+	padding:5px;
+	margin-top:5px;
+	border-radius:9px;
+	font-size:15px;
+	font-weight:700;
+	color: #666;
+	background-color:#fdba68
+	
+	
+}
+
+textarea
+{
+	padding:5px;
+	width:760px;
+	height:300px;
+	margin-top:5px;
+	margin-left:5px;
+	background-color:#fff3e6;
+}
+
+textarea:focus
+{
+	background-color:#fee8cd
+}
+
+#hello
+{
+	margin-top:50px;
+	width:800px;
+	height:400px;
+}
+
+.torx
+{
+	margin-top:30px;
+	width:150px;
+	height:150px;
+	display:block;
+	padding:5px;
+	float:left;
+	cursor:pointer;
+}
+
+.info-art-galery
+{
+	text-align:center;
+	padding:12px;
+	height:650px;
+	width:800px;
+	margin:auto;
+	margin-bottom:25px;
+	border-radius: 10px;
+	background-color: rgba(200,200,200,0.75);
+}
+
+.info-brand
+{
+	text-align:center;
+	padding:10px;
+	height:700px;
+	width:800px;
+	margin:auto;
+	margin-bottom:25px;
+	border-radius: 10px;
+	background-color: rgba(200,200,200,0.75);
+}
+
+.ll
+{
+	padding-top:10px;
+}
+
+.lp
+{
+	padding-top:10px;
+}
+
+.images-l
+{
+	margin-left:10px;
+	margin-right:10px;
+	border-radius:7px;
+	width:100px;
+	height:100px;
+	display:block;
+	float:left;
+	margin-bottom:5px;
+}
+
+.images-p
+{
+	margin-left:10px;
+	margin-right:10px;
+	border-radius:7px;
+	width:100px;
+	height:100px;
+	display:block;
+	float:left;
+	margin-bottom:9px;
+}
+
+.oimg-l
+{
+	border-style:dotted;
+	border-radius:5px;
+	padding:10px;
+	height:78px;
+	width:652px;
+	text-align:left;
+	font-size:20px;
+	color:#151515;
+	vertical-align:middle;
+	float:left;
+	margin-bottom:5px;
+}
+
+.oimg-p
+{
+	border-style:dotted;
+	border-radius:5px;
+	padding:10px;
+	height:78px;
+	width:652px;
+	text-align:right;
+	font-size:20px;
+	color:#151515;
+	vertical-align:middle;
+	float:left;
+	margin-bottom:5px;
+}
+
+.info-art-do
+{
+	text-align:center;
+	padding:12px;
+	height:90px;
+	width:800px;
+	margin:auto;
+	margin-top:25px;
+	margin-bottom:25px;
+	border-radius: 10px;
+	background-color: rgba(200,200,200,0.75);
+}
+
+.info-art-media
+{
+	margin-top: 50px;
+	text-align:center;
+	padding:12px;
+	height:280px;
+	width:800px;
+	margin:auto;
+	border-radius: 10px;
+	background-color: rgba(200,200,200,0.75);
+}
+
+.in
+{
+	padding: 20px;
+	margin:15px;
+	width: 150px;
+	height: 150px;
+}
+
+.fb
+{
+	padding: 20px;
+	margin:15px;
+	width: 150px;
+	height: 150px;
+}
+
+.tw
+{
+	padding: 20px;
+	margin:15px;
+	width: 150px;
+	height: 150px;
+}
+
+.in:hover
+{
+	cursor:pointer;
+	background-color:#ffdc80;
+	border-radius: 15px;
+}
+
+.fb:hover
+{
+	cursor:pointer;
+	background-color:white;
+	border-radius: 15px;
+}
+
+.tw:hover
+{
+	cursor:pointer;
+	background-color:#e1e8ed;
+	border-radius: 7px;
+}
+
+#frame
+{
+	margin-top:7px;
+	width:150px;
+	float:left;
+}
+
+#frameback
+{
+	margin-top:7px;
+	width:150px;
+	float:right;
+}
+
+.b
+{
+	color:#5c3317;
+	font-size: 30px;
+	height:30px;
+	margin-bottom:15px;
+	margin-top:5px;
+	border-bottom: 1px solid #5c3317;
+}
+
+.a
+{
+	color:#5c3317;
+	font-size: 30px;
+	height:30px;
+	margin-bottom:0px;
+	margin-top:0px;
+	border-bottom: 1px solid #5c3317;
+}
+
+.info-art .text
+{
+	padding-top:10px;;
+	color:#222;
+}
+
+.info-art-do .text
+{
+	padding-top:10px;;
+	color:#222;
+}
+
+.ad
+{
+	cursor:pointer;
+	width:160px;
+	height:600px;
+	float:left;
+}
+
+.ad-pf
+{
+	margin-top:35px;
+	cursor:pointer;
+	width:160px;
+	height:600px;
+	float:right;
+}
+
+#footer
+{
+	margin:auto;
+	width:1150px;
+	background-color: rgba(33,33,33,0.8);
+	clear:both;
+	text-align: center;
+	color: white;
+}
+
+.yt
+{
+	width:160px;
+	height:130px;
+	float:right;
+	background-color: rgba(255,0,0,0.7);
+}
+
+.yt:hover
+{
+	background-color: rgba(255,0,0,1);
+	cursor: pointer;
+}
+
+.yt-button
+
+{
+	width:160px;
+	margin-top:-15px;
+}
+
+.sticky
+{
+	width: 1150px;
+	position: fixed;
+	left: 1;
+	top: 0;
+	z-index: 100;
+}
+
+ol
+{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	font-size: 18px;
+	height: 35px;
+	line-height: 200%;
+	display: inline-block;
+}
+
+ol a
+{
+	color: #5c3317;
+	text-decoration: none;
+	display: block;
+}
+
+ol > li
+{
+	float: left;
+	width: 150px;
+	height: 40;
+	border-right: 1px solid #bbbbbb;
+}
+
+ol > li:first-child
+{
+	border-left: 1px solid #bbbbbb;
+}
+
+ol > li:hover
+{
+	border-bottom: 2px solid #8E6B23;
+}
+
+ol > li:hover > a
+{
+	color: #8E6B23;
+}
+
+#splash
+{
+	height:620px;
+	width:800px;
+}
+
+.splash-main-image
+{
+	margin-top:25px;
+	height:500px;
+}
+
+.splash-mini-image:first-child
+{
+	margin-left:25px;
+}
+
+.splash-mini-image
+{
+	opacity:0.6;
+	width:66px;
+	height:66px;
+	margin:5px;
+	margin-top:5px;
+	float:left;
+	cursor:pointer;
+}
+
+.splash-mini-image:hover
+{
+	opacity:1;
+}

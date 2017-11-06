@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+
+	<link rel="Stylesheet" type="text/css" href="style.css" >
+	<meta charset="UTF-8">
+	<meta name="description" content="Pełna informacja na temat kolarstwa górskiego">
+	<meta name="author" content="Marek Patrzałek">
+	<link href="https://fonts.googleapis.com/css?family=Asap+Condensed" rel="stylesheet">
+	<title>Rowerowcy</title>
+
+</head>
+
+<body>
+
+	<main id="main">
+		
+		<header>
+		
+			<div id="logo"><img src="imgs/bgmenu.png" alt="Rowerowcy" width="1150px"/>
+			</div>
+			
+			<nav class="nav">
+			
+				<ol>
+					<li><a href="index.html">Strona Główna</a></li>
+					<li><a href="galery.html">Galeria</a></li>
+					<li><a href="pf.html">Polecane Firmy</a></li>
+					<li><a href="types.html">Typy Rowerów</a></li>
+					<li><a href="contact.html">Kontakt</a></li>
+				</ol>
+				
+				<div style="clear:both;"></div>
+				
+			</nav>
+			
+		</header>
+		
+		<article id="content">
+			
+			<article id="info">
+				
+				<section class="info-art-galery">
+				
+					<header>
+						<div class="a">Kilka zdjęć z naszych wyjazdów:</div>
+					</header>
+
+					<div id="splash">
+						
+						<div id="splash-main">
+							<img src="XDD/a1.png" class="splash-main-image"/>
+						</div>
+						
+						<div id="splash-mini">
+							<div class="splash-mini-mini">
+								<div class="splash-mini-image-1"/>
+								<img onclick="galery(1)" src="XDD/b1.png" class="splash-mini-image"/>
+								<img onclick="galery(2)" src="XDD/b2.png" class="splash-mini-image"/>
+								<img onclick="galery(3)" src="XDD/b3.png" class="splash-mini-image"/>
+								<img onclick="galery(4)" src="XDD/b4.png" class="splash-mini-image"/>
+								<img onclick="galery(5)" src="XDD/b5.png" class="splash-mini-image"/>
+								<img onclick="galery(6)" src="XDD/b6.png" class="splash-mini-image"/>
+								<img onclick="galery(7)" src="XDD/b7.png" class="splash-mini-image"/>
+								<img onclick="galery(8)" src="XDD/b8.png" class="splash-mini-image"/>
+								<img onclick="galery(9)" src="XDD/b9.png" class="splash-mini-image"/>
+								<img onclick="galery(10)" src="XDD/b10.png" class="splash-mini-image"/>
+							</div>
+						</div>
+					
+					</div>
+					
+				</section>
+				
+
+			</article>
+				
+			<article class="ad">
+				<img src="imgs/add.png" class="ad" title="ad ;)"/>
+			</article>
+			
+			<article class="yt">
+				<a href="http://www.youtube.com/channel/UCjFedstnxR4ow95fLwJhSxw" target="_blank"><img src="imgs/yt.png" class="yt-button"/></a>
+			</article>
+			
+			<div style="clear:both"></div>
+			
+		</article>
+		
+	</main>
+	
+		<footer id="footer">
+				Marek Patrzałek &copy; 2017
+		</footer>
+	
+	<script src="jquery-1.11.3.min.js"/></script>
+	<script src="jquery-1.11.3.min.js"></script>
+	<script src="sticky.js"></script>
+	<script>
+	
+		function galery(elo)
+		{
+			var deim = "<img src=\"XDD/a" + elo + ".png\" class=\"splash-main-image\" />";
+			
+			document.getElementById("splash-main").innerHTML = deim;
+		}
+	
+	</script>
+
+</body>
+</html>
